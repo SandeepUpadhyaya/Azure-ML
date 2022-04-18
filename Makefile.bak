@@ -1,7 +1,7 @@
 setup:
-	python3 -m venv ~/.Azure-ML
+	python3 -m venv ~/.flask-ml-azure-serverless
 
-	#source ~/.Azure-ML/bin/activate
+	#source ~/.flask-ml-azure-serverless/bin/activate
 
 install:
 	pip install --upgrade pip &&\
