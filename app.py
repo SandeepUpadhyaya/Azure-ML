@@ -22,7 +22,11 @@ def scale(payload):
 
 @app.route("/")
 def home():
+<<<<<<< HEAD
     html = "<h3>Sklearn Prediction Home: From Azure Pipelines Demo by Sandeep Upadhyaya (Continuos Delivery) live</h3>"
+=======
+    html = "<h3>Sklearn Prediction Home: From Azure Pipelines by Sandeep (Continuos Delivery) live Demo </h3>"
+>>>>>>> 8524a70a4081bd405b63f263b6b7732873b9dd88
     return html.format(format)
 
 
